@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  TabHomeViewController.h
 //  viewctrl
 //
 //  Created by 欧阳明择 on 2020/7/31.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface TabHomeViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
