@@ -14,6 +14,12 @@
 
 @implementation TabMeDetailViewController
 
++(TabMeDetailViewController*) makeInstance {
+    TabMeDetailViewController* ntn = [[TabMeDetailViewController alloc] init];
+    return ntn;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

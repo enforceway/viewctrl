@@ -8,14 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		11E2D00524D3B4EC008B4D2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D00424D3B4EC008B4D2B /* AppDelegate.m */; };
-		11E2D00824D3B4EC008B4D2B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D00724D3B4EC008B4D2B /* SceneDelegate.m */; };
-		11E2D00B24D3B4EC008B4D2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D00A24D3B4EC008B4D2B /* ViewController.m */; };
-		11E2D00E24D3B4EC008B4D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D00C24D3B4EC008B4D2B /* Main.storyboard */; };
 		11E2D01024D3B4EE008B4D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D00F24D3B4EE008B4D2B /* Assets.xcassets */; };
 		11E2D01324D3B4EE008B4D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D01124D3B4EE008B4D2B /* LaunchScreen.storyboard */; };
 		11E2D01624D3B4EE008B4D2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D01524D3B4EE008B4D2B /* main.m */; };
 		11E2D02024D3B4EE008B4D2B /* viewctrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D01F24D3B4EE008B4D2B /* viewctrlTests.m */; };
 		11E2D02B24D3B4EE008B4D2B /* viewctrlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D02A24D3B4EE008B4D2B /* viewctrlUITests.m */; };
+		11E2D03D24D3C0B5008B4D2B /* RootTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D03C24D3C0B5008B4D2B /* RootTabbarViewController.m */; };
+		11E2D04024D3C304008B4D2B /* ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D03F24D3C304008B4D2B /* ColorUtil.m */; };
+		11E2D04524D3F1AD008B4D2B /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D04424D3F1AD008B4D2B /* ImageUtil.m */; };
+		11E2D05624D3FB27008B4D2B /* TabHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D05424D3FB27008B4D2B /* TabHomeViewController.m */; };
+		11E2D05724D3FB27008B4D2B /* TabHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D05524D3FB27008B4D2B /* TabHomeViewController.xib */; };
+		11E2D06024D3FB65008B4D2B /* TabCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D05E24D3FB65008B4D2B /* TabCategoryViewController.m */; };
+		11E2D06424D40277008B4D2B /* TabMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D06324D40277008B4D2B /* TabMeViewController.m */; };
+		11E2D06A24D408C3008B4D2B /* PostsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D06924D408C3008B4D2B /* PostsTableView.m */; };
+		11E2D07124D42C9F008B4D2B /* ViewModel4Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D07024D42C9F008B4D2B /* ViewModel4Post.m */; };
+		11E2D07A24D6B79D008B4D2B /* TabMeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D07924D6B79D008B4D2B /* TabMeDetailViewController.xib */; };
+		11E2D07D24D6C983008B4D2B /* TabMeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D07C24D6C983008B4D2B /* TabMeDetailViewController.m */; };
+		11E2D07F24D6EFCF008B4D2B /* TabCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D07E24D6EFCF008B4D2B /* TabCategoryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +48,6 @@
 		11E2D00024D3B4EC008B4D2B /* viewctrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewctrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E2D00324D3B4EC008B4D2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11E2D00424D3B4EC008B4D2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		11E2D00624D3B4EC008B4D2B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		11E2D00724D3B4EC008B4D2B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		11E2D00924D3B4EC008B4D2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		11E2D00A24D3B4EC008B4D2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		11E2D00D24D3B4EC008B4D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11E2D00F24D3B4EE008B4D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11E2D01224D3B4EE008B4D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11E2D01424D3B4EE008B4D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +58,27 @@
 		11E2D02624D3B4EE008B4D2B /* viewctrlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewctrlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E2D02A24D3B4EE008B4D2B /* viewctrlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewctrlUITests.m; sourceTree = "<group>"; };
 		11E2D02C24D3B4EE008B4D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E2D03B24D3C0B5008B4D2B /* RootTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RootTabbarViewController.h; path = viewControllers/RootTabbarViewController.h; sourceTree = "<group>"; };
+		11E2D03C24D3C0B5008B4D2B /* RootTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RootTabbarViewController.m; path = viewControllers/RootTabbarViewController.m; sourceTree = "<group>"; };
+		11E2D03E24D3C304008B4D2B /* ColorUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorUtil.h; sourceTree = "<group>"; };
+		11E2D03F24D3C304008B4D2B /* ColorUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorUtil.m; sourceTree = "<group>"; };
+		11E2D04324D3F1AD008B4D2B /* ImageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		11E2D04424D3F1AD008B4D2B /* ImageUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		11E2D05324D3FB27008B4D2B /* TabHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabHomeViewController.h; sourceTree = "<group>"; };
+		11E2D05424D3FB27008B4D2B /* TabHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabHomeViewController.m; sourceTree = "<group>"; };
+		11E2D05524D3FB27008B4D2B /* TabHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabHomeViewController.xib; sourceTree = "<group>"; };
+		11E2D05D24D3FB65008B4D2B /* TabCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabCategoryViewController.h; sourceTree = "<group>"; };
+		11E2D05E24D3FB65008B4D2B /* TabCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabCategoryViewController.m; sourceTree = "<group>"; };
+		11E2D06224D40277008B4D2B /* TabMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabMeViewController.h; sourceTree = "<group>"; };
+		11E2D06324D40277008B4D2B /* TabMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabMeViewController.m; sourceTree = "<group>"; };
+		11E2D06824D408C3008B4D2B /* PostsTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostsTableView.h; sourceTree = "<group>"; };
+		11E2D06924D408C3008B4D2B /* PostsTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostsTableView.m; sourceTree = "<group>"; };
+		11E2D06F24D42C9F008B4D2B /* ViewModel4Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel4Post.h; sourceTree = "<group>"; };
+		11E2D07024D42C9F008B4D2B /* ViewModel4Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel4Post.m; sourceTree = "<group>"; };
+		11E2D07924D6B79D008B4D2B /* TabMeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabMeDetailViewController.xib; sourceTree = "<group>"; };
+		11E2D07B24D6C983008B4D2B /* TabMeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabMeDetailViewController.h; sourceTree = "<group>"; };
+		11E2D07C24D6C983008B4D2B /* TabMeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabMeDetailViewController.m; sourceTree = "<group>"; };
+		11E2D07E24D6EFCF008B4D2B /* TabCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabCategoryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +129,20 @@
 		11E2D00224D3B4EC008B4D2B /* viewctrl */ = {
 			isa = PBXGroup;
 			children = (
+				11E2D07224D6B6F2008B4D2B /* tabMeDetailViewController */,
+				11E2D06724D407B8008B4D2B /* postsTable */,
+				11E2D04C24D3FA27008B4D2B /* tabCategoryViewController */,
+				11E2D04B24D3FA1D008B4D2B /* tabMeViewController */,
+				11E2D04A24D3FA00008B4D2B /* tabHomeViewController */,
+				11E2D04124D3C317008B4D2B /* extrautils */,
 				11E2D00324D3B4EC008B4D2B /* AppDelegate.h */,
 				11E2D00424D3B4EC008B4D2B /* AppDelegate.m */,
-				11E2D00624D3B4EC008B4D2B /* SceneDelegate.h */,
-				11E2D00724D3B4EC008B4D2B /* SceneDelegate.m */,
-				11E2D00924D3B4EC008B4D2B /* ViewController.h */,
-				11E2D00A24D3B4EC008B4D2B /* ViewController.m */,
-				11E2D00C24D3B4EC008B4D2B /* Main.storyboard */,
 				11E2D00F24D3B4EE008B4D2B /* Assets.xcassets */,
 				11E2D01124D3B4EE008B4D2B /* LaunchScreen.storyboard */,
 				11E2D01424D3B4EE008B4D2B /* Info.plist */,
 				11E2D01524D3B4EE008B4D2B /* main.m */,
+				11E2D03B24D3C0B5008B4D2B /* RootTabbarViewController.h */,
+				11E2D03C24D3C0B5008B4D2B /* RootTabbarViewController.m */,
 			);
 			path = viewctrl;
 			sourceTree = "<group>";
@@ -135,6 +163,75 @@
 				11E2D02C24D3B4EE008B4D2B /* Info.plist */,
 			);
 			path = viewctrlUITests;
+			sourceTree = "<group>";
+		};
+		11E2D04124D3C317008B4D2B /* extrautils */ = {
+			isa = PBXGroup;
+			children = (
+				11E2D03E24D3C304008B4D2B /* ColorUtil.h */,
+				11E2D03F24D3C304008B4D2B /* ColorUtil.m */,
+				11E2D04324D3F1AD008B4D2B /* ImageUtil.h */,
+				11E2D04424D3F1AD008B4D2B /* ImageUtil.m */,
+			);
+			path = extrautils;
+			sourceTree = "<group>";
+		};
+		11E2D04A24D3FA00008B4D2B /* tabHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11E2D05324D3FB27008B4D2B /* TabHomeViewController.h */,
+				11E2D05424D3FB27008B4D2B /* TabHomeViewController.m */,
+				11E2D05524D3FB27008B4D2B /* TabHomeViewController.xib */,
+			);
+			path = tabHomeViewController;
+			sourceTree = "<group>";
+		};
+		11E2D04B24D3FA1D008B4D2B /* tabMeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11E2D06224D40277008B4D2B /* TabMeViewController.h */,
+				11E2D06324D40277008B4D2B /* TabMeViewController.m */,
+			);
+			path = tabMeViewController;
+			sourceTree = "<group>";
+		};
+		11E2D04C24D3FA27008B4D2B /* tabCategoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11E2D05D24D3FB65008B4D2B /* TabCategoryViewController.h */,
+				11E2D05E24D3FB65008B4D2B /* TabCategoryViewController.m */,
+				11E2D07E24D6EFCF008B4D2B /* TabCategoryViewController.xib */,
+			);
+			path = tabCategoryViewController;
+			sourceTree = "<group>";
+		};
+		11E2D06724D407B8008B4D2B /* postsTable */ = {
+			isa = PBXGroup;
+			children = (
+				11E2D06E24D42C52008B4D2B /* models */,
+				11E2D06824D408C3008B4D2B /* PostsTableView.h */,
+				11E2D06924D408C3008B4D2B /* PostsTableView.m */,
+			);
+			path = postsTable;
+			sourceTree = "<group>";
+		};
+		11E2D06E24D42C52008B4D2B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				11E2D06F24D42C9F008B4D2B /* ViewModel4Post.h */,
+				11E2D07024D42C9F008B4D2B /* ViewModel4Post.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		11E2D07224D6B6F2008B4D2B /* tabMeDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11E2D07924D6B79D008B4D2B /* TabMeDetailViewController.xib */,
+				11E2D07B24D6C983008B4D2B /* TabMeDetailViewController.h */,
+				11E2D07C24D6C983008B4D2B /* TabMeDetailViewController.m */,
+			);
+			path = tabMeDetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +337,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E2D07F24D6EFCF008B4D2B /* TabCategoryViewController.xib in Resources */,
+				11E2D07A24D6B79D008B4D2B /* TabMeDetailViewController.xib in Resources */,
 				11E2D01324D3B4EE008B4D2B /* LaunchScreen.storyboard in Resources */,
+				11E2D05724D3FB27008B4D2B /* TabHomeViewController.xib in Resources */,
 				11E2D01024D3B4EE008B4D2B /* Assets.xcassets in Resources */,
-				11E2D00E24D3B4EC008B4D2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +366,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11E2D00B24D3B4EC008B4D2B /* ViewController.m in Sources */,
+				11E2D07D24D6C983008B4D2B /* TabMeDetailViewController.m in Sources */,
+				11E2D03D24D3C0B5008B4D2B /* RootTabbarViewController.m in Sources */,
+				11E2D04524D3F1AD008B4D2B /* ImageUtil.m in Sources */,
+				11E2D06A24D408C3008B4D2B /* PostsTableView.m in Sources */,
 				11E2D00524D3B4EC008B4D2B /* AppDelegate.m in Sources */,
+				11E2D06024D3FB65008B4D2B /* TabCategoryViewController.m in Sources */,
+				11E2D04024D3C304008B4D2B /* ColorUtil.m in Sources */,
+				11E2D06424D40277008B4D2B /* TabMeViewController.m in Sources */,
+				11E2D05624D3FB27008B4D2B /* TabHomeViewController.m in Sources */,
 				11E2D01624D3B4EE008B4D2B /* main.m in Sources */,
-				11E2D00824D3B4EC008B4D2B /* SceneDelegate.m in Sources */,
+				11E2D07124D42C9F008B4D2B /* ViewModel4Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +412,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		11E2D00C24D3B4EC008B4D2B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11E2D00D24D3B4EC008B4D2B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		11E2D01124D3B4EE008B4D2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,6 +540,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PKB4U2YG59;
 				INFOPLIST_FILE = viewctrl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +558,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PKB4U2YG59;
 				INFOPLIST_FILE = viewctrl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

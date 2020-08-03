@@ -7,7 +7,19 @@
 //
 
 #import "ViewModel4Post.h"
+@interface ViewModel4Post()
+
+@end
+
 
 @implementation ViewModel4Post
 
++(ViewModel4Post *)makeName: (NSString *)name AndAge: (NSInteger) a {
+    ViewModel4Post* nPost = [[ViewModel4Post alloc] init];
+    nPost.age = a;
+    nPost.name = name;
+    return nPost;
+}
+
 @end
+

@@ -10,8 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TabMeDetailViewController : UINavigationController
+@interface TabMeDetailViewController : UIViewController
 
++(TabMeDetailViewController*) makeInstance;
 @end
 
 NS_ASSUME_NONNULL_END

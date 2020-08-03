@@ -7,6 +7,11 @@
 //
 
 #import "PostsTableView.h"
+#import "ViewModel4Post.h"
+@interface PostsTableView ()
+
+@end
+
 
 @implementation PostsTableView
 
