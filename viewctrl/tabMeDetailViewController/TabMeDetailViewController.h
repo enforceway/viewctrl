@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SportingDetailViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TabMeDetailViewController : UIViewController
+
+@property IBOutlet UILabel* genderRequiredLabel;
 
 +(TabMeDetailViewController*) makeInstance;
 @end

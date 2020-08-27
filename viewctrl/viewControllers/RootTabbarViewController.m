@@ -12,6 +12,7 @@
 #import "TabCategoryViewController.h"
 #import "ColorUtil.h"
 #import "ImageUtil.h"
+#import "FruitSalesDataListInteractor.h"
 
 @interface RootTabbarViewController ()
 
@@ -52,15 +53,27 @@
     self.viewControllers = [tabsArray copy];
 
     self.view.backgroundColor = [UIColor whiteColor];
-    self.selectedIndex = 2;
+    self.selectedIndex = 0;
     
 //    [UITabBar appearance] setBarStyle:(UIBarStyle)
 //    [[UITabBar appearance] setBackgroundColor: [ColorUtil colorWithHexString: @"0xff0000" alpha: 1]];
+    
+    [FruitSalesDataListInteractor requestSalesList3];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [self viewWillDisappear: false];
 //    self.hidesBottomBarWhenPushed = NO;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+//    NSDate* date1 = [NSDate date];
+//    
+//    NSDate* date2 = [NSDate date];
+//    long timestampDate1 = [date1 timeIntervalSince1970] * 1000;
+//    long timestampDate2 = [date2 timeIntervalSince1970] * 1000;
+//    NSLog(@"%ld", timestampDate1);
+//    NSLog(@"%ld", timestampDate2);
 }
 
 @end

@@ -32,6 +32,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     CGSize viewSize = [UIScreen mainScreen].bounds.size;
 
     self.postsTable = [[UITableView alloc] initWithFrame: CGRectMake(0, 0, viewSize.width, viewSize.height - 340) style: UITableViewStylePlain];
@@ -51,6 +52,9 @@
     [dataArray addObject: [ViewModel4Post makeName: @"worldexpress" AndAge: 10]];
 
     self.postsArray = [dataArray copy];
+    
+    self.postsTable.estimatedRowHeight = 200;
+    self.postsTable.rowHeight = UITableViewAutomaticDimension;
     
     [self.view addSubview: self.postsTable];
 }
@@ -74,6 +78,7 @@
 
 //    self.hidesBottomBarWhenPushed = YES;
     ntn.hidesBottomBarWhenPushed = YES;
+    [self.postsTable deselectRowAtIndexPath: indexPath animated: NO];
     [self.navigationController pushViewController: ntn animated:YES];
 //    self.hidesBottomBarWhenPushed = NO;
 }
@@ -87,20 +92,24 @@
 
     // 3.创建单元格
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleSubtitle reuseIdentifier: cellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier: cellIdentifier];
     }
 
-    NSLog(@"row:%ld, column: %ld", indexPath.section, indexPath.row);
+//    NSLog(@"row:%ld, column: %ld", indexPath.section, indexPath.row);
     ViewModel4Post* viewPost = (ViewModel4Post *)[self.postsArray objectAtIndex: indexPath.section];
     cell.textLabel.text = viewPost.name; // [[self.postsArray objectAtIndex: indexPath.section] objectAtIndex: indexPath.row];
     cell.imageView.image = [UIImage imageNamed:@"mineprofile.jpg"];
-    cell.detailTextLabel.text = [NSString stringWithFormat: @"%ld", viewPost.age];
+//    cell.detailTextLabel.text = [NSString stringWithFormat: @"%ld", viewPost.age];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+//    UIButton* butto = [[UIButton alloc] init];
+//    butto.tag = 1;
+//    [cell addSubview:butto];
 
 //    [cell layoutSubviews];
     return cell;
 }
 
 @end
+
 
 

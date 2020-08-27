@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <title>documentation</title>
+    <style>
+    	.default-button {
+    		width: 100;
+    		height: 40;
+    		background-color: red;
+    	}
+    </style>
+
+</head>
+
+<body>
+    <p>A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.A quick fox jumps over a lazy dog.</p>
+    <div>
+        <button class="default-button queryLocale">获取locale</button>
+        <button class="default-button queryUserInfo">获取userinfo</button>
+        <script>
+            var btn = document.querySelector(".queryLocale");
+            btn.addEventListener('click', function() {
+                callNative('getLocale', {
+                    deviceId: 110
+                }).then(function(data) {
+                    alert(JSON.stringify(data));
+                });
+            });
+            btn = document.querySelector(".queryUserInfo");
+            btn.addEventListener('click', function() {
+                callNative('getUserInfo').then(function(data) {
+                    alert(JSON.stringify(data));
+                });
+            });
+            function callNative(name, param) {
+                return new Promise(function(resolve, reject) {
+                    if(window.webkit.messageHandlers[name]) {
+                        window.webkit.messageHandlers[name].postMessage(param || "");
+                    } else {
+                        alert("出现了错误");
+                        return;
+                    }
+                    var callbackName = "$$" + name + "_callback";
+                    window[callbackName] = function(result) {
+                        // 当定义的全局回调执行后就可以销毁
+                        delete window[callbackName];
+                        var error = result.error;
+                        if(error) {
+                            reject(error);
+                        } else {
+                            resolve(result);
+                        }
+                    }
+                });
+            }
+        </script>
+    </div>
+</body>
+</html>

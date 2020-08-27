@@ -7,6 +7,7 @@
 //
 
 #import "TabCategoryViewController.h"
+#import <JavaScriptCore/JavaScriptCore.h>
 
 @interface TabCategoryViewController ()
 

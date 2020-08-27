@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		119BE70F24F79CED00175774 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 119BE70E24F79CED00175774 /* index.html */; };
+		11A01C2E24DB0C8B00A703DD /* FruitSalesDataListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A01C2D24DB0C8B00A703DD /* FruitSalesDataListInteractor.m */; };
 		11E2D00524D3B4EC008B4D2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D00424D3B4EC008B4D2B /* AppDelegate.m */; };
 		11E2D01024D3B4EE008B4D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D00F24D3B4EE008B4D2B /* Assets.xcassets */; };
 		11E2D01324D3B4EE008B4D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D01124D3B4EE008B4D2B /* LaunchScreen.storyboard */; };
@@ -17,14 +19,13 @@
 		11E2D04024D3C304008B4D2B /* ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D03F24D3C304008B4D2B /* ColorUtil.m */; };
 		11E2D04524D3F1AD008B4D2B /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D04424D3F1AD008B4D2B /* ImageUtil.m */; };
 		11E2D05624D3FB27008B4D2B /* TabHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D05424D3FB27008B4D2B /* TabHomeViewController.m */; };
-		11E2D05724D3FB27008B4D2B /* TabHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D05524D3FB27008B4D2B /* TabHomeViewController.xib */; };
 		11E2D06024D3FB65008B4D2B /* TabCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D05E24D3FB65008B4D2B /* TabCategoryViewController.m */; };
 		11E2D06424D40277008B4D2B /* TabMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D06324D40277008B4D2B /* TabMeViewController.m */; };
 		11E2D06A24D408C3008B4D2B /* PostsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D06924D408C3008B4D2B /* PostsTableView.m */; };
 		11E2D07124D42C9F008B4D2B /* ViewModel4Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D07024D42C9F008B4D2B /* ViewModel4Post.m */; };
-		11E2D07A24D6B79D008B4D2B /* TabMeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D07924D6B79D008B4D2B /* TabMeDetailViewController.xib */; };
 		11E2D07D24D6C983008B4D2B /* TabMeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D07C24D6C983008B4D2B /* TabMeDetailViewController.m */; };
-		11E2D07F24D6EFCF008B4D2B /* TabCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D07E24D6EFCF008B4D2B /* TabCategoryViewController.xib */; };
+		11ED95B624F181F5007DD059 /* SportingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ED95B524F181F5007DD059 /* SportingDetailViewController.m */; };
+		11ED95B924F1E9D4007DD059 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ED95B824F1E9D4007DD059 /* DateUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		119BE70E24F79CED00175774 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		11A01C2D24DB0C8B00A703DD /* FruitSalesDataListInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitSalesDataListInteractor.m; sourceTree = "<group>"; };
 		11E2D00024D3B4EC008B4D2B /* viewctrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewctrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E2D00324D3B4EC008B4D2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11E2D00424D3B4EC008B4D2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,7 +69,6 @@
 		11E2D04424D3F1AD008B4D2B /* ImageUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
 		11E2D05324D3FB27008B4D2B /* TabHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabHomeViewController.h; sourceTree = "<group>"; };
 		11E2D05424D3FB27008B4D2B /* TabHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabHomeViewController.m; sourceTree = "<group>"; };
-		11E2D05524D3FB27008B4D2B /* TabHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabHomeViewController.xib; sourceTree = "<group>"; };
 		11E2D05D24D3FB65008B4D2B /* TabCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabCategoryViewController.h; sourceTree = "<group>"; };
 		11E2D05E24D3FB65008B4D2B /* TabCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabCategoryViewController.m; sourceTree = "<group>"; };
 		11E2D06224D40277008B4D2B /* TabMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabMeViewController.h; sourceTree = "<group>"; };
@@ -75,10 +77,12 @@
 		11E2D06924D408C3008B4D2B /* PostsTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostsTableView.m; sourceTree = "<group>"; };
 		11E2D06F24D42C9F008B4D2B /* ViewModel4Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel4Post.h; sourceTree = "<group>"; };
 		11E2D07024D42C9F008B4D2B /* ViewModel4Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel4Post.m; sourceTree = "<group>"; };
-		11E2D07924D6B79D008B4D2B /* TabMeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabMeDetailViewController.xib; sourceTree = "<group>"; };
 		11E2D07B24D6C983008B4D2B /* TabMeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabMeDetailViewController.h; sourceTree = "<group>"; };
 		11E2D07C24D6C983008B4D2B /* TabMeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabMeDetailViewController.m; sourceTree = "<group>"; };
-		11E2D07E24D6EFCF008B4D2B /* TabCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabCategoryViewController.xib; sourceTree = "<group>"; };
+		11ED95B424F181F5007DD059 /* SportingDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SportingDetailViewController.h; sourceTree = "<group>"; };
+		11ED95B524F181F5007DD059 /* SportingDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportingDetailViewController.m; sourceTree = "<group>"; };
+		11ED95B724F1E9D4007DD059 /* DateUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		11ED95B824F1E9D4007DD059 /* DateUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 				11E2D01E24D3B4EE008B4D2B /* viewctrlTests */,
 				11E2D02924D3B4EE008B4D2B /* viewctrlUITests */,
 				11E2D00124D3B4EC008B4D2B /* Products */,
+				11F41F0324F7D13700659D00 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,6 +177,8 @@
 				11E2D03F24D3C304008B4D2B /* ColorUtil.m */,
 				11E2D04324D3F1AD008B4D2B /* ImageUtil.h */,
 				11E2D04424D3F1AD008B4D2B /* ImageUtil.m */,
+				11ED95B724F1E9D4007DD059 /* DateUtil.h */,
+				11ED95B824F1E9D4007DD059 /* DateUtil.m */,
 			);
 			path = extrautils;
 			sourceTree = "<group>";
@@ -181,7 +188,6 @@
 			children = (
 				11E2D05324D3FB27008B4D2B /* TabHomeViewController.h */,
 				11E2D05424D3FB27008B4D2B /* TabHomeViewController.m */,
-				11E2D05524D3FB27008B4D2B /* TabHomeViewController.xib */,
 			);
 			path = tabHomeViewController;
 			sourceTree = "<group>";
@@ -200,7 +206,6 @@
 			children = (
 				11E2D05D24D3FB65008B4D2B /* TabCategoryViewController.h */,
 				11E2D05E24D3FB65008B4D2B /* TabCategoryViewController.m */,
-				11E2D07E24D6EFCF008B4D2B /* TabCategoryViewController.xib */,
 			);
 			path = tabCategoryViewController;
 			sourceTree = "<group>";
@@ -227,11 +232,29 @@
 		11E2D07224D6B6F2008B4D2B /* tabMeDetailViewController */ = {
 			isa = PBXGroup;
 			children = (
-				11E2D07924D6B79D008B4D2B /* TabMeDetailViewController.xib */,
+				11ED95B324F181C0007DD059 /* detailDescriptionViewController */,
 				11E2D07B24D6C983008B4D2B /* TabMeDetailViewController.h */,
 				11E2D07C24D6C983008B4D2B /* TabMeDetailViewController.m */,
 			);
 			path = tabMeDetailViewController;
+			sourceTree = "<group>";
+		};
+		11ED95B324F181C0007DD059 /* detailDescriptionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11ED95B424F181F5007DD059 /* SportingDetailViewController.h */,
+				11ED95B524F181F5007DD059 /* SportingDetailViewController.m */,
+			);
+			path = detailDescriptionViewController;
+			sourceTree = "<group>";
+		};
+		11F41F0324F7D13700659D00 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				11A01C2D24DB0C8B00A703DD /* FruitSalesDataListInteractor.m */,
+				119BE70E24F79CED00175774 /* index.html */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,10 +360,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11E2D07F24D6EFCF008B4D2B /* TabCategoryViewController.xib in Resources */,
-				11E2D07A24D6B79D008B4D2B /* TabMeDetailViewController.xib in Resources */,
+				119BE70F24F79CED00175774 /* index.html in Resources */,
 				11E2D01324D3B4EE008B4D2B /* LaunchScreen.storyboard in Resources */,
-				11E2D05724D3FB27008B4D2B /* TabHomeViewController.xib in Resources */,
 				11E2D01024D3B4EE008B4D2B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +388,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E2D07D24D6C983008B4D2B /* TabMeDetailViewController.m in Sources */,
+				11ED95B624F181F5007DD059 /* SportingDetailViewController.m in Sources */,
 				11E2D03D24D3C0B5008B4D2B /* RootTabbarViewController.m in Sources */,
+				11ED95B924F1E9D4007DD059 /* DateUtil.m in Sources */,
 				11E2D04524D3F1AD008B4D2B /* ImageUtil.m in Sources */,
 				11E2D06A24D408C3008B4D2B /* PostsTableView.m in Sources */,
 				11E2D00524D3B4EC008B4D2B /* AppDelegate.m in Sources */,
@@ -375,6 +398,7 @@
 				11E2D04024D3C304008B4D2B /* ColorUtil.m in Sources */,
 				11E2D06424D40277008B4D2B /* TabMeViewController.m in Sources */,
 				11E2D05624D3FB27008B4D2B /* TabHomeViewController.m in Sources */,
+				11A01C2E24DB0C8B00A703DD /* FruitSalesDataListInteractor.m in Sources */,
 				11E2D01624D3B4EE008B4D2B /* main.m in Sources */,
 				11E2D07124D42C9F008B4D2B /* ViewModel4Post.m in Sources */,
 			);
@@ -537,8 +561,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PKB4U2YG59;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = viewctrl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -547,6 +571,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.enfo.viewctrl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
