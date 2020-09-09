@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		119BE70F24F79CED00175774 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 119BE70E24F79CED00175774 /* index.html */; };
 		11A01C2E24DB0C8B00A703DD /* FruitSalesDataListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A01C2D24DB0C8B00A703DD /* FruitSalesDataListInteractor.m */; };
+		11BED6C625089D4400203EC0 /* FruitSalesDataListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BED6C525089D4400203EC0 /* FruitSalesDataListInteractor.m */; };
 		11E2D00524D3B4EC008B4D2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D00424D3B4EC008B4D2B /* AppDelegate.m */; };
 		11E2D01024D3B4EE008B4D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D00F24D3B4EE008B4D2B /* Assets.xcassets */; };
 		11E2D01324D3B4EE008B4D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E2D01124D3B4EE008B4D2B /* LaunchScreen.storyboard */; };
@@ -48,6 +49,8 @@
 /* Begin PBXFileReference section */
 		119BE70E24F79CED00175774 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		11A01C2D24DB0C8B00A703DD /* FruitSalesDataListInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitSalesDataListInteractor.m; sourceTree = "<group>"; };
+		11BED6C425089D4400203EC0 /* FruitSalesDataListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FruitSalesDataListInteractor.h; path = viewctrl/interactors/appleListInteractor/FruitSalesDataListInteractor.h; sourceTree = SOURCE_ROOT; };
+		11BED6C525089D4400203EC0 /* FruitSalesDataListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FruitSalesDataListInteractor.m; path = viewctrl/interactors/appleListInteractor/FruitSalesDataListInteractor.m; sourceTree = SOURCE_ROOT; };
 		11E2D00024D3B4EC008B4D2B /* viewctrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewctrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E2D00324D3B4EC008B4D2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11E2D00424D3B4EC008B4D2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11BED6C225089D1800203EC0 /* interactors */ = {
+			isa = PBXGroup;
+			children = (
+				11BED6C325089D2A00203EC0 /* appleListInteractor */,
+			);
+			name = interactors;
+			sourceTree = "<group>";
+		};
+		11BED6C325089D2A00203EC0 /* appleListInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				11BED6C425089D4400203EC0 /* FruitSalesDataListInteractor.h */,
+				11BED6C525089D4400203EC0 /* FruitSalesDataListInteractor.m */,
+			);
+			path = appleListInteractor;
+			sourceTree = "<group>";
+		};
 		11E2CFF724D3B4EC008B4D2B = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +154,7 @@
 		11E2D00224D3B4EC008B4D2B /* viewctrl */ = {
 			isa = PBXGroup;
 			children = (
+				11BED6C225089D1800203EC0 /* interactors */,
 				11E2D07224D6B6F2008B4D2B /* tabMeDetailViewController */,
 				11E2D06724D407B8008B4D2B /* postsTable */,
 				11E2D04C24D3FA27008B4D2B /* tabCategoryViewController */,
@@ -390,6 +411,7 @@
 				11E2D07D24D6C983008B4D2B /* TabMeDetailViewController.m in Sources */,
 				11ED95B624F181F5007DD059 /* SportingDetailViewController.m in Sources */,
 				11E2D03D24D3C0B5008B4D2B /* RootTabbarViewController.m in Sources */,
+				11BED6C625089D4400203EC0 /* FruitSalesDataListInteractor.m in Sources */,
 				11ED95B924F1E9D4007DD059 /* DateUtil.m in Sources */,
 				11E2D04524D3F1AD008B4D2B /* ImageUtil.m in Sources */,
 				11E2D06A24D408C3008B4D2B /* PostsTableView.m in Sources */,
